@@ -12,9 +12,9 @@ public class BankAccount : IEntity
     [Required]
     public BankAccountClass Class { get; set; }
     [Required]
-    public Balance InputBalance { get; set; }
+    public InputBalance InputBalance { get; set; }
     [Required]
-    public Balance OutputBalance { get; set; }
+    public OutputBalance OutputBalance { get; set; }
     [Required]
     public Turnover Turnover { get; set; }
 }
